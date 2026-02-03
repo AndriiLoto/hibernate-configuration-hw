@@ -13,6 +13,6 @@ public class Main {
         movie.setTitle("Title");
         movie.setDescription("Description");
         Movie savedMovie = movieService.add(movie);
-        Movie foundMovie = movieService.get(savedMovie.getId());
+        Movie foundMoviee = movieService.get(savedMovie.getId());
     }
 }
